@@ -1,2 +1,9 @@
-def hello() -> None:
-    print("Hello from hello-world!")
+def hello(s: str) -> str:
+    return "hello " + s
+
+
+def main():
+    print(hello("world"))
+
+
+main()
