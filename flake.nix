@@ -11,6 +11,10 @@
         path = ./cpp-meson;
         description = "A template for C++ development with meson";
       };
+      python-uv = {
+        path = ./python-uv;
+        description = "A template for Python development with uv";
+      };
     };
 
     defaultTemplate = self.templates.cpp-meson;
